@@ -13,44 +13,59 @@
       </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg py-5" aria-label="Tenth navbar example">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link"  href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="project.html">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <span class="fs-4">DIPI Laboratory</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link text-black">Home</a></li>
+          <li class="nav-item"><a href="project.html" class="nav-link text-black">Projects</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link text-black">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link text-black">Contact</a></li>
+        </ul>
+      </header>
+    </div>
 
     <div class="container">
         <div class="clearfix">
             <img src="img/banner-big.png" class="col-md-6 float-md-end mb-3 ms-md-3 rounded" alt="...">
+            <h3>Lorem, ipsum.</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, sit. Aliquam, repellat amet a vel optio dignissimos labore eius voluptatibus blanditiis porro quos, reprehenderit explicabo. Eligendi expedita tenetur rerum magnam, id animi fugit obcaecati ullam iste, doloremque rem quia nemo quam quo eius consectetur? Atque repellat hic, nemo iure modi debitis maxime ipsam eligendi. Molestiae expedita a odio, at repudiandae voluptates tempora beatae placeat cumque, accusamus fuga laborum. Corporis alias quos possimus. Sit, alias odio.
             </p>
 
             <h6>Contact Us</h6>
-            <a href="#"><i class="mb-3 text-dark" data-feather="mail"></i></a>
+            <a href="#" class="text-decoration-none d-flex text-center text-black"><i class="text-dark" data-feather="mail"></i>contact@contact.com</a>
             <br>
-            <a href="#"><i class="mb-3 text-dark" data-feather="message-square"></i></a>
+            <a href="#" class="text-decoration-none d-flex text-center text-black"><i class="text-dark" data-feather="map-pin"></i> Indonesia</a>
             <br>
-            <a href="#"><i class="mb-3 text-dark" data-feather="phone"></i></a>
+            <a href="#" class="text-decoration-none d-flex text-center text-black"><i class="text-dark" data-feather="phone"></i> 0808-0808-0808</a>
           </div>
+    </div>
+
+    <div class="container py-5">
+      <h6>Let's get in touch. Send me a message:</h6>
+      <form>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" readonly>
+          <label for="floatingInput">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password" readonly>
+          <label for="floatingPassword">Email</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password" readonly>
+          <label for="floatingPassword">Subject</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password" readonly>
+          <label for="floatingPassword">Body</label>
+        </div>
+        <button type="submit" class="btn btn-outline-dark" disabled>Send Message</button>
+      </form>
     </div>
 
     <div class="container">

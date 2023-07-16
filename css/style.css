@@ -1,4 +1,16 @@
-nav {
+.fs-4 {
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 900;
+    font-style: normal;   
+}
+
+.nav {
     font-family: "urbane-rounded", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -8,6 +20,16 @@ nav {
     font-family: "urbane-rounded", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.checked {
+    color: orange;
+}
+
+@media (max-width: 767px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
 }
 
 /* Urbane Rounded Thin
