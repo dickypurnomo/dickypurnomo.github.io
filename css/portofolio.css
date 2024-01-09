@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.margin-top-bot {
+    margin-top: 18rem !important;
+    margin-bottom: 18rem !important;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -25px;
+}
+
+.paddinger {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.border {
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+
+.bi-instagram {
+    font-size: 10rem;
+}
+
+.bi-facebook {
+    font-size: 10rem;
+}
+
+.bi-twitter-x {
+    font-size: 10rem;
+}
+
+@media (max-width: 768px) {
+    .margin-top-bot {
+        margin-top: 15rem !important;
+        margin-bottom: 15rem !important;
+    }
+
+    .nav-underline {
+        max-width: 40%;
+    }
+
+    .offcanvas-title {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .offcanvas-body {
+        margin-left: 1rem;
+        margin-top: -1rem;
+        font-size: 24px;
+    }
+
+    footer .col-md-4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    footer img{
+        display: none;
+    }
+
+    footer .nav-link {
+        display: none;
+    }
+}
